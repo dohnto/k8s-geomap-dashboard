@@ -1,0 +1,36 @@
+version: '3.8'
+services:
+
+  grafana:
+    image: grafana/grafana:10.1.1
+    container_name: grafana
+    restart: unless-stopped
+    # if you are running as root then set it to 0
+    # else find the right id with the id -u command
+    user: '0'
+    ports:
+      - '3000:3000'
+    # adding the mount volume point which we create earlier
+    volumes:
+      - '$PWD/data:/var/lib/grafana'
+      - '$PWD/prometheus-datasource.yaml:/etc/grafana/provisioning/datasources/prometheus-datasource.yaml'
+      - '$PWD/../gazetteer:/usr/share/grafana/public/gazetteer'
+  prometheus:
+    image: prom/prometheus:v2.47.0
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+    ports:
+      - 9090:9090
+    restart: unless-stopped
+    volumes:
+      - '$PWD/prometheus-etc/:/etc/prometheus/'
+
+  node_exporter:
+    image: quay.io/prometheus/node-exporter:latest
+    restart: unless-stopped
+    command:
+      - --collector.disable-defaults
+      - --collector.textfile
+      - --collector.textfile.directory=/var/node_exporter
+    volumes:
+      - '$PWD/node-exporter-textfile-dir:/var/node_exporter/'

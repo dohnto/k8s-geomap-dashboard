@@ -1,0 +1,26 @@
+# Configuration file version
+apiVersion: 1
+
+
+# List of data sources to insert/update depending on what's
+# available in the database.
+datasources:
+  # <string, required> Sets the name you use to refer to
+  # the data source in panels and queries.
+  - name: Prometheus
+    # <string, required> Sets the data source type.
+    type: prometheus
+    # <string, required> Sets the access mode, either
+    # proxy or direct (Server or Browser in the UI).
+    # Some data sources are incompatible with any setting
+    # but proxy (Server).
+    access: proxy
+    # <int> Sets the organization id. Defaults to orgId 1.
+    orgId: 1
+    # <string> Sets a custom UID to reference this
+    # data source in other parts of the configuration.
+    # If not specified, Grafana generates one.
+    uid: prometheus
+    # <string> Sets the data source's URL, including the
+    # port.
+    url: http://prometheus:9090
