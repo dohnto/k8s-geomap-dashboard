@@ -77,10 +77,6 @@
               {
                 "color": "green",
                 "value": null
-              },
-              {
-                "color": "red",
-                "value": 1000
               }
             ]
           }
@@ -111,13 +107,35 @@
         "layers": [
           {
             "config": {
-              "blur": 17,
-              "radius": 13,
-              "weight": {
-                "field": "Value",
-                "fixed": 1,
-                "max": 1,
-                "min": 0
+              "showLegend": true,
+              "style": {
+                "color": {
+                  "fixed": "dark-orange"
+                },
+                "opacity": 0.4,
+                "rotation": {
+                  "fixed": 0,
+                  "max": 360,
+                  "min": -360,
+                  "mode": "mod"
+                },
+                "size": {
+                  "field": "Value",
+                  "fixed": 5,
+                  "max": 15,
+                  "min": 2
+                },
+                "symbol": {
+                  "fixed": "img/icons/marker/circle.svg",
+                  "mode": "fixed"
+                },
+                "textConfig": {
+                  "fontSize": 12,
+                  "offsetX": 0,
+                  "offsetY": 0,
+                  "textAlign": "center",
+                  "textBaseline": "middle"
+                }
               }
             },
             "filterData": {
@@ -125,13 +143,60 @@
               "options": "A"
             },
             "location": {
-              "gazetteer": "https://raw.githubusercontent.com/dohnto/k8s-geomap-dashboard/main/gazetteer/cloud-regions.json",
+              "gazetteer": "https://raw.githubusercontent.com/dohnto/k8s-geomap-dashboard/main/gazetteer/aws.json",
+              "lookup": "label_topology_kubernetes_io_region",
               "mode": "lookup"
             },
-            "name": "Layer 1",
+            "name": "AWS",
             "opacity": 1,
             "tooltip": true,
-            "type": "heatmap"
+            "type": "markers"
+          },
+          {
+            "config": {
+              "showLegend": true,
+              "style": {
+                "color": {
+                  "fixed": "dark-blue"
+                },
+                "opacity": 0.4,
+                "rotation": {
+                  "fixed": 0,
+                  "max": 360,
+                  "min": -360,
+                  "mode": "mod"
+                },
+                "size": {
+                  "field": "Value",
+                  "fixed": 5,
+                  "max": 15,
+                  "min": 2
+                },
+                "symbol": {
+                  "fixed": "img/icons/marker/circle.svg",
+                  "mode": "fixed"
+                },
+                "textConfig": {
+                  "fontSize": 12,
+                  "offsetX": 0,
+                  "offsetY": 0,
+                  "textAlign": "center",
+                  "textBaseline": "middle"
+                }
+              }
+            },
+            "filterData": {
+              "id": "byRefId",
+              "options": "A"
+            },
+            "location": {
+              "gazetteer": "https://raw.githubusercontent.com/dohnto/k8s-geomap-dashboard/main/gazetteer/gcp.json",
+              "lookup": "label_topology_kubernetes_io_region",
+              "mode": "lookup"
+            },
+            "name": "GCP",
+            "tooltip": true,
+            "type": "markers"
           }
         ],
         "tooltip": {
@@ -192,13 +257,13 @@
     ]
   },
   "time": {
-    "from": "now-6h",
+    "from": "now-5m",
     "to": "now"
   },
   "timepicker": {},
   "timezone": "",
-  "title": "Kubernetes GEO",
-  "uid": "b8f299c5-e861-4b55-af7d-942fc4376bc8",
-  "version": 14,
+  "title": "Kubernetes GEO2",
+  "uid": "b8f299c5-e861-4b55-af7d-942fc4376bc9",
+  "version": 1,
   "weekStart": ""
 }
