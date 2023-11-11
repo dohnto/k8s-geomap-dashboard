@@ -164,7 +164,7 @@ function gen() {
     local provider=$1
     shift
     local regions=("$@")
-    local output_file=node-exporter-textfile-dir/kube_node_labels.$provider.prom
+    local output_file=node-exporter/kube_node_labels.$provider.prom
 
     echo $output_file
     echo -n > $output_file

@@ -1,5 +1,5 @@
-local aws = [
-  // Source: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html
+// Source: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html
+local regions = [
   {
     key: 'us-east-2',
     name: 'US East (Ohio)',
@@ -146,4 +146,4 @@ local aws = [
   },
 ];
 
-aws
+std.map(function(r) r { provider: 'aws' }, regions)

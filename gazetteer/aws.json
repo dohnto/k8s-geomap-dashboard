@@ -1,0 +1,198 @@
+[
+   {
+      "key": "us-east-2",
+      "latitude": 40,
+      "longitude": -83,
+      "name": "US East (Ohio)",
+      "provider": "aws"
+   },
+   {
+      "key": "us-east-1",
+      "latitude": 38.862500000000004,
+      "longitude": -77.344999999999999,
+      "name": "US East (N. Virginia)",
+      "provider": "aws"
+   },
+   {
+      "key": "us-west-1",
+      "latitude": 37.166111000000001,
+      "longitude": -119.449444,
+      "name": "US West (N. California)",
+      "provider": "aws"
+   },
+   {
+      "key": "us-west-2",
+      "latitude": 44,
+      "longitude": -121,
+      "name": "US West (Oregon)",
+      "provider": "aws"
+   },
+   {
+      "key": "af-south-1",
+      "latitude": -33.925277777777772,
+      "longitude": 18.423888888888889,
+      "name": "Africa (Cape Town)",
+      "provider": "aws"
+   },
+   {
+      "key": "ap-east-1",
+      "latitude": 22.300000000000001,
+      "longitude": 114.2,
+      "name": "Asia Pacific (Hong Kong)",
+      "provider": "aws"
+   },
+   {
+      "key": "ap-south-2",
+      "latitude": 17.361666666666668,
+      "longitude": 78.474722222222226,
+      "name": "Asia Pacific (Hyderabad)",
+      "provider": "aws"
+   },
+   {
+      "key": "ap-southeast-3",
+      "latitude": -6.1750000000000007,
+      "longitude": 106.8275,
+      "name": "Asia Pacific (Jakarta)",
+      "provider": "aws"
+   },
+   {
+      "key": "ap-southeast-4",
+      "latitude": -37.814166666666665,
+      "longitude": 144.96305555555554,
+      "name": "Asia Pacific (Melbourne)",
+      "provider": "aws"
+   },
+   {
+      "key": "ap-south-1",
+      "latitude": 19.076111111111111,
+      "longitude": 72.877499999999998,
+      "name": "Asia Pacific (Mumbai)",
+      "provider": "aws"
+   },
+   {
+      "key": "ap-northeast-3",
+      "latitude": 34.693888888888885,
+      "longitude": 135.50222222222223,
+      "name": "Asia Pacific (Osaka)",
+      "provider": "aws"
+   },
+   {
+      "key": "ap-northeast-2",
+      "latitude": 37.559999999999995,
+      "longitude": 126.98999999999999,
+      "name": "Asia Pacific (Seoul)",
+      "provider": "aws"
+   },
+   {
+      "key": "ap-southeast-1",
+      "latitude": 1.2833333333333332,
+      "longitude": 103.83333333333333,
+      "name": "Asia Pacific (Singapore)",
+      "provider": "aws"
+   },
+   {
+      "key": "ap-southeast-2",
+      "latitude": -33.867777777777775,
+      "longitude": 151.20999999999998,
+      "name": "Asia Pacific (Sydney)",
+      "provider": "aws"
+   },
+   {
+      "key": "ap-northeast-1",
+      "latitude": 35.689722222222215,
+      "longitude": 139.69222222222223,
+      "name": "Asia Pacific (Tokyo)",
+      "provider": "aws"
+   },
+   {
+      "key": "ca-central-1",
+      "latitude": 50,
+      "longitude": -79,
+      "name": "Canada (Central)",
+      "provider": "aws"
+   },
+   {
+      "key": "eu-central-1",
+      "latitude": 50.110555555555557,
+      "longitude": 8.6822222222222223,
+      "name": "Europe (Frankfurt)",
+      "provider": "aws"
+   },
+   {
+      "key": "eu-west-1",
+      "latitude": 53.449444444444438,
+      "longitude": -7.5030555555555551,
+      "name": "Europe (Ireland)",
+      "provider": "aws"
+   },
+   {
+      "key": "eu-west-2",
+      "latitude": 51.507222222222225,
+      "longitude": -0.1275,
+      "name": "Europe (London)",
+      "provider": "aws"
+   },
+   {
+      "key": "eu-south-1",
+      "latitude": 45.466944444444444,
+      "longitude": 9.1899999999999995,
+      "name": "Europe (Milan)",
+      "provider": "aws"
+   },
+   {
+      "key": "eu-west-3",
+      "latitude": 48.856666666666669,
+      "longitude": 2.3522222222222222,
+      "name": "Europe (Paris)",
+      "provider": "aws"
+   },
+   {
+      "key": "eu-south-2",
+      "latitude": 40,
+      "longitude": -4,
+      "name": "Europe (Spain)",
+      "provider": "aws"
+   },
+   {
+      "key": "eu-north-1",
+      "latitude": 59.329444444444448,
+      "longitude": 18.06861111111111,
+      "name": "Europe (Stockholm)",
+      "provider": "aws"
+   },
+   {
+      "key": "eu-central-2",
+      "latitude": 47.374444444444443,
+      "longitude": 8.5411111111111104,
+      "name": "Europe (Zurich)",
+      "provider": "aws"
+   },
+   {
+      "key": "il-central-1",
+      "latitude": 32.079999999999998,
+      "longitude": 34.780000000000001,
+      "name": "Israel (Tel Aviv)",
+      "provider": "aws"
+   },
+   {
+      "key": "me-south-1",
+      "latitude": 26.066666666666666,
+      "longitude": 50.5,
+      "name": "Middle East (Bahrain)",
+      "provider": "aws"
+   },
+   {
+      "key": "me-central-1",
+      "latitude": 24,
+      "longitude": 54,
+      "name": "Middle East (UAE)",
+      "provider": "aws"
+   },
+   {
+      "key": "sa-east-1",
+      "latitude": -23.550000000000001,
+      "longitude": -46.633333333333333,
+      "name": "South America (São Paulo)",
+      "provider": "aws"
+   }
+]

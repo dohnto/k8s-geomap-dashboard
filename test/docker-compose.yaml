@@ -10,11 +10,12 @@ services:
     user: '0'
     ports:
       - '3000:3000'
-    # adding the mount volume point which we create earlier
     volumes:
-      - '$PWD/data:/var/lib/grafana'
-      - '$PWD/prometheus-datasource.yaml:/etc/grafana/provisioning/datasources/prometheus-datasource.yaml'
+      #      - '$PWD/data:/var/lib/grafana'
+      - '$PWD/grafana/prometheus-datasource.yaml:/etc/grafana/provisioning/datasources/prometheus-datasource.yaml'
+      - '$PWD/grafana/dashboards.yaml:/etc/grafana/provisioning/dashboards/dashboards.yaml'
       - '$PWD/../gazetteer:/usr/share/grafana/public/gazetteer'
+      - '$PWD/../dashboards:/var/lib/grafana/dashboards'
   prometheus:
     image: prom/prometheus:v2.47.0
     command:
@@ -23,7 +24,7 @@ services:
       - 9090:9090
     restart: unless-stopped
     volumes:
-      - '$PWD/prometheus-etc/:/etc/prometheus/'
+      - '$PWD/prometheus/:/etc/prometheus/'
 
   node_exporter:
     image: quay.io/prometheus/node-exporter:latest
@@ -33,4 +34,4 @@ services:
       - --collector.textfile
       - --collector.textfile.directory=/var/node_exporter
     volumes:
-      - '$PWD/node-exporter-textfile-dir:/var/node_exporter/'
+      - '$PWD/node-exporter:/var/node_exporter/'
