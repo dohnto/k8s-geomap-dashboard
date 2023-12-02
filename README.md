@@ -2,7 +2,7 @@
 
 **Understand your infrastructure geographic topology at glance.**
 
-Various cloud providers codes for their regions (e. g. AWS' `us-east-1`) and those map to a location.
+Public cloud providers expose codes for their regions (e. g. AWS exposes code `us-east-1`) and those map to a location (US East - N. Virginia).
 
 There are 2 artifacts of this project which can be used for different purposes:
  * [Gazetteer Files](#gazetteer-files) - contains mapping of the cloud region code to latitude and longitude
