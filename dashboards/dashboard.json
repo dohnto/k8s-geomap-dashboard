@@ -214,6 +214,7 @@
                   "mode": "mod"
                 },
                 "size": {
+                  "field": "Value",
                   "fixed": 5,
                   "max": 15,
                   "min": 2
@@ -258,6 +259,7 @@
                   "mode": "mod"
                 },
                 "size": {
+                  "field": "Value",
                   "fixed": 5,
                   "max": 15,
                   "min": 2
