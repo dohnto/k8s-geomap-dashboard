@@ -19,6 +19,7 @@ There are 2 artifacts of this project which can be used for different purposes:
 
  * AWS: https://raw.githubusercontent.com/dohnto/k8s-geomap-dashboard/main/gazetteer/aws.json
  * GCP: https://raw.githubusercontent.com/dohnto/k8s-geomap-dashboard/main/gazetteer/gcp.json
+ * Azure: https://raw.githubusercontent.com/dohnto/k8s-geomap-dashboard/main/gazetteer/azure.json
  * Merged: https://raw.githubusercontent.com/dohnto/k8s-geomap-dashboard/main/gazetteer/cloud-regions.json
 
 ## What Cloud Providers are Covered?
