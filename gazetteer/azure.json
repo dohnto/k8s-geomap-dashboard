@@ -1,0 +1,380 @@
+[
+  {
+    "key": "eastus",
+    "latitude": 37.3719,
+    "longitude": -79.8164,
+    "name": "(US) East US",
+    "provider": "azure"
+  },
+  {
+    "key": "eastus2",
+    "latitude": 36.6681,
+    "longitude": -78.3889,
+    "name": "(US) East US 2",
+    "provider": "azure"
+  },
+  {
+    "key": "southcentralus",
+    "latitude": 29.4167,
+    "longitude": -98.5,
+    "name": "(US) South Central US",
+    "provider": "azure"
+  },
+  {
+    "key": "westus2",
+    "latitude": 47.233,
+    "longitude": -119.852,
+    "name": "(US) West US 2",
+    "provider": "azure"
+  },
+  {
+    "key": "westus3",
+    "latitude": 33.448376,
+    "longitude": -112.074036,
+    "name": "(US) West US 3",
+    "provider": "azure"
+  },
+  {
+    "key": "australiaeast",
+    "latitude": -33.86,
+    "longitude": 151.2094,
+    "name": "(Asia Pacific) Australia East",
+    "provider": "azure"
+  },
+  {
+    "key": "southeastasia",
+    "latitude": 1.283,
+    "longitude": 103.833,
+    "name": "(Asia Pacific) Southeast Asia",
+    "provider": "azure"
+  },
+  {
+    "key": "northeurope",
+    "latitude": 53.3478,
+    "longitude": -6.2597,
+    "name": "(Europe) North Europe",
+    "provider": "azure"
+  },
+  {
+    "key": "swedencentral",
+    "latitude": 60.67488,
+    "longitude": 17.14127,
+    "name": "(Europe) Sweden Central",
+    "provider": "azure"
+  },
+  {
+    "key": "uksouth",
+    "latitude": 50.941,
+    "longitude": -0.799,
+    "name": "(Europe) UK South",
+    "provider": "azure"
+  },
+  {
+    "key": "westeurope",
+    "latitude": 52.3667,
+    "longitude": 4.9,
+    "name": "(Europe) West Europe",
+    "provider": "azure"
+  },
+  {
+    "key": "centralus",
+    "latitude": 41.5908,
+    "longitude": -93.6208,
+    "name": "(US) Central US",
+    "provider": "azure"
+  },
+  {
+    "key": "southafricanorth",
+    "latitude": -25.73134,
+    "longitude": 28.21837,
+    "name": "(Africa) South Africa North",
+    "provider": "azure"
+  },
+  {
+    "key": "centralindia",
+    "latitude": 18.5822,
+    "longitude": 73.9197,
+    "name": "(Asia Pacific) Central India",
+    "provider": "azure"
+  },
+  {
+    "key": "eastasia",
+    "latitude": 22.267,
+    "longitude": 114.188,
+    "name": "(Asia Pacific) East Asia",
+    "provider": "azure"
+  },
+  {
+    "key": "japaneast",
+    "latitude": 35.68,
+    "longitude": 139.77,
+    "name": "(Asia Pacific) Japan East",
+    "provider": "azure"
+  },
+  {
+    "key": "koreacentral",
+    "latitude": 37.5665,
+    "longitude": 126.978,
+    "name": "(Asia Pacific) Korea Central",
+    "provider": "azure"
+  },
+  {
+    "key": "canadacentral",
+    "latitude": 43.653,
+    "longitude": -79.383,
+    "name": "(Canada) Canada Central",
+    "provider": "azure"
+  },
+  {
+    "key": "francecentral",
+    "latitude": 46.3772,
+    "longitude": 2.373,
+    "name": "(Europe) France Central",
+    "provider": "azure"
+  },
+  {
+    "key": "germanywestcentral",
+    "latitude": 50.110924,
+    "longitude": 8.682127,
+    "name": "(Europe) Germany West Central",
+    "provider": "azure"
+  },
+  {
+    "key": "italynorth",
+    "latitude": 45.46888,
+    "longitude": 9.18109,
+    "name": "(Europe) Italy North",
+    "provider": "azure"
+  },
+  {
+    "key": "norwayeast",
+    "latitude": 59.913868,
+    "longitude": 10.752245,
+    "name": "(Europe) Norway East",
+    "provider": "azure"
+  },
+  {
+    "key": "polandcentral",
+    "latitude": 52.23334,
+    "longitude": 21.01666,
+    "name": "(Europe) Poland Central",
+    "provider": "azure"
+  },
+  {
+    "key": "switzerlandnorth",
+    "latitude": 47.451542,
+    "longitude": 8.564572,
+    "name": "(Europe) Switzerland North",
+    "provider": "azure"
+  },
+  {
+    "key": "uaenorth",
+    "latitude": 25.266666,
+    "longitude": 55.316666,
+    "name": "(Middle East) UAE North",
+    "provider": "azure"
+  },
+  {
+    "key": "brazilsouth",
+    "latitude": -23.55,
+    "longitude": -46.633,
+    "name": "(South America) Brazil South",
+    "provider": "azure"
+  },
+  {
+    "key": "centraluseuap",
+    "latitude": 41.5908,
+    "longitude": -93.6208,
+    "name": "(US) Central US EUAP",
+    "provider": "azure"
+  },
+  {
+    "key": "israelcentral",
+    "latitude": 31.2655698,
+    "longitude": 33.4506633,
+    "name": "(Middle East) Israel Central",
+    "provider": "azure"
+  },
+  {
+    "key": "qatarcentral",
+    "latitude": 25.551462,
+    "longitude": 51.439327,
+    "name": "(Middle East) Qatar Central",
+    "provider": "azure"
+  },
+  {
+    "key": "brazilus",
+    "latitude": 0,
+    "longitude": 0,
+    "name": "(South America) Brazil US",
+    "provider": "azure"
+  },
+  {
+    "key": "eastusstg",
+    "latitude": 37.3719,
+    "longitude": -79.8164,
+    "name": "(US) East US STG",
+    "provider": "azure"
+  },
+  {
+    "key": "northcentralus",
+    "latitude": 41.8819,
+    "longitude": -87.6278,
+    "name": "(US) North Central US",
+    "provider": "azure"
+  },
+  {
+    "key": "westus",
+    "latitude": 37.783,
+    "longitude": -122.417,
+    "name": "(US) West US",
+    "provider": "azure"
+  },
+  {
+    "key": "jioindiawest",
+    "latitude": 22.470701,
+    "longitude": 70.05773,
+    "name": "(Asia Pacific) Jio India West",
+    "provider": "azure"
+  },
+  {
+    "key": "eastus2euap",
+    "latitude": 36.6681,
+    "longitude": -78.3889,
+    "name": "(US) East US 2 EUAP",
+    "provider": "azure"
+  },
+  {
+    "key": "southcentralusstg",
+    "latitude": 29.4167,
+    "longitude": -98.5,
+    "name": "(US) South Central US STG",
+    "provider": "azure"
+  },
+  {
+    "key": "westcentralus",
+    "latitude": 40.89,
+    "longitude": -110.234,
+    "name": "(US) West Central US",
+    "provider": "azure"
+  },
+  {
+    "key": "southafricawest",
+    "latitude": -34.075691,
+    "longitude": 18.843266,
+    "name": "(Africa) South Africa West",
+    "provider": "azure"
+  },
+  {
+    "key": "australiacentral",
+    "latitude": -35.3075,
+    "longitude": 149.1244,
+    "name": "(Asia Pacific) Australia Central",
+    "provider": "azure"
+  },
+  {
+    "key": "australiacentral2",
+    "latitude": -35.3075,
+    "longitude": 149.1244,
+    "name": "(Asia Pacific) Australia Central 2",
+    "provider": "azure"
+  },
+  {
+    "key": "australiasoutheast",
+    "latitude": -37.8136,
+    "longitude": 144.9631,
+    "name": "(Asia Pacific) Australia Southeast",
+    "provider": "azure"
+  },
+  {
+    "key": "japanwest",
+    "latitude": 34.6939,
+    "longitude": 135.5022,
+    "name": "(Asia Pacific) Japan West",
+    "provider": "azure"
+  },
+  {
+    "key": "jioindiacentral",
+    "latitude": 21.146633,
+    "longitude": 79.08886,
+    "name": "(Asia Pacific) Jio India Central",
+    "provider": "azure"
+  },
+  {
+    "key": "koreasouth",
+    "latitude": 35.1796,
+    "longitude": 129.0756,
+    "name": "(Asia Pacific) Korea South",
+    "provider": "azure"
+  },
+  {
+    "key": "southindia",
+    "latitude": 12.9822,
+    "longitude": 80.1636,
+    "name": "(Asia Pacific) South India",
+    "provider": "azure"
+  },
+  {
+    "key": "westindia",
+    "latitude": 19.088,
+    "longitude": 72.868,
+    "name": "(Asia Pacific) West India",
+    "provider": "azure"
+  },
+  {
+    "key": "canadaeast",
+    "latitude": 46.817,
+    "longitude": -71.217,
+    "name": "(Canada) Canada East",
+    "provider": "azure"
+  },
+  {
+    "key": "francesouth",
+    "latitude": 43.8345,
+    "longitude": 2.1972,
+    "name": "(Europe) France South",
+    "provider": "azure"
+  },
+  {
+    "key": "germanynorth",
+    "latitude": 53.073635,
+    "longitude": 8.806422,
+    "name": "(Europe) Germany North",
+    "provider": "azure"
+  },
+  {
+    "key": "norwaywest",
+    "latitude": 58.969975,
+    "longitude": 5.733107,
+    "name": "(Europe) Norway West",
+    "provider": "azure"
+  },
+  {
+    "key": "switzerlandwest",
+    "latitude": 46.204391,
+    "longitude": 6.143158,
+    "name": "(Europe) Switzerland West",
+    "provider": "azure"
+  },
+  {
+    "key": "ukwest",
+    "latitude": 53.427,
+    "longitude": -3.084,
+    "name": "(Europe) UK West",
+    "provider": "azure"
+  },
+  {
+    "key": "uaecentral",
+    "latitude": 24.466667,
+    "longitude": 54.366669,
+    "name": "(Middle East) UAE Central",
+    "provider": "azure"
+  },
+  {
+    "key": "brazilsoutheast",
+    "latitude": -22.90278,
+    "longitude": -43.2075,
+    "name": "(South America) Brazil Southeast",
+    "provider": "azure"
+  }
+]

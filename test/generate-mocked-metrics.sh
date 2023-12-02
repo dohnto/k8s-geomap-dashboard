@@ -105,13 +105,6 @@ azure_regions=(
     centraluseuap
     eastus2euap
     qatarcentral
-    centralusstage
-    eastusstage
-    eastus2stage
-    northcentralusstage
-    southcentralusstage
-    westusstage
-    westus2stage
     asia
     asiapacific
     australia
@@ -132,8 +125,6 @@ azure_regions=(
     uk
     unitedstates
     unitedstateseuap
-    eastasiastage
-    southeastasiastage
     brazilus
     eastusstg
     northcentralus

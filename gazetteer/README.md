@@ -6,5 +6,7 @@ Use following commands to generate them:
 ```bash
 bash generate-latlong.sh aws
 bash generate-latlong.sh gcp
-echo "local aws = import 'aws.json'; local gcp = import 'gcp.json'; aws + gcp" | jsonnet - > cloud-regions.json
+az account list-locations --query "[?not_null(metadata.latitude)] .{key:name, name:regionalDisplayName, provider: 'azure', latitude:metadata.latitude, longitude:metadata.longitude} " | jq  '.[].latitude |= tonumber | .[].longitude |= tonumber' > azure.json
+
+echo "local aws = import 'aws.json'; local gcp = import 'gcp.json'; local azure = import 'azure.json'; aws + gcp + azure" | jsonnet - > cloud-regions.json
 ```
