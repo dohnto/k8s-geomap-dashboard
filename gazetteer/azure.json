@@ -203,13 +203,6 @@
     "provider": "azure"
   },
   {
-    "key": "brazilus",
-    "latitude": 0,
-    "longitude": 0,
-    "name": "(South America) Brazil US",
-    "provider": "azure"
-  },
-  {
     "key": "eastusstg",
     "latitude": 37.3719,
     "longitude": -79.8164,
