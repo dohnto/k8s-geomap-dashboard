@@ -8,5 +8,5 @@ bash generate-latlong.sh aws
 bash generate-latlong.sh gcp
 az account list-locations --query "[?not_null(metadata.latitude)] .{key:name, name:regionalDisplayName, provider: 'azure', latitude:metadata.latitude, longitude:metadata.longitude} " | jq  '.[].latitude |= tonumber | .[].longitude |= tonumber' > azure.json
 
-echo "local aws = import 'aws.json'; local gcp = import 'gcp.json'; local azure = import 'azure.json'; aws + gcp + azure" | jsonnet - > cloud-regions.json
+echo "local aws = import 'aws.json'; local gcp = import 'gcp.json'; local azure = import 'azure.json'; local oracle = import 'oracle.json'; aws + gcp + azure + oracle" | jsonnet - > cloud-regions.json
 ```

@@ -214,6 +214,7 @@
                   "mode": "mod"
                 },
                 "size": {
+                  "field": "Value",
                   "fixed": 5,
                   "max": 15,
                   "min": 2
@@ -240,6 +241,52 @@
               "mode": "lookup"
             },
             "name": "Azure",
+            "tooltip": true,
+            "type": "markers"
+          },
+          {
+            "config": {
+              "showLegend": true,
+              "style": {
+                "color": {
+                  "fixed": "dark-red"
+                },
+                "opacity": 0.4,
+                "rotation": {
+                  "fixed": 0,
+                  "max": 360,
+                  "min": -360,
+                  "mode": "mod"
+                },
+                "size": {
+                  "field": "Value",
+                  "fixed": 5,
+                  "max": 15,
+                  "min": 2
+                },
+                "symbol": {
+                  "fixed": "img/icons/marker/circle.svg",
+                  "mode": "fixed"
+                },
+                "textConfig": {
+                  "fontSize": 12,
+                  "offsetX": 0,
+                  "offsetY": 0,
+                  "textAlign": "center",
+                  "textBaseline": "middle"
+                }
+              }
+            },
+            "filterData": {
+              "id": "byRefId",
+              "options": "A"
+            },
+            "location": {
+              "gazetteer": "https://raw.githubusercontent.com/dohnto/k8s-geomap-dashboard/5d9de16a253980369cb7b4618c30fad879c5471a/gazetteer/oracle.json",
+              "lookup": "label_topology_kubernetes_io_region",
+              "mode": "lookup"
+            },
+            "name": "Oracle",
             "tooltip": true,
             "type": "markers"
           }

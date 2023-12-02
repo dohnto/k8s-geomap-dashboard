@@ -20,12 +20,14 @@ There are 2 artifacts of this project which can be used for different purposes:
  * AWS: https://raw.githubusercontent.com/dohnto/k8s-geomap-dashboard/main/gazetteer/aws.json
  * GCP: https://raw.githubusercontent.com/dohnto/k8s-geomap-dashboard/main/gazetteer/gcp.json
  * Azure: https://raw.githubusercontent.com/dohnto/k8s-geomap-dashboard/main/gazetteer/azure.json
+ * Oracle: https://raw.githubusercontent.com/dohnto/k8s-geomap-dashboard/main/gazetteer/oracle.json
  * Merged: https://raw.githubusercontent.com/dohnto/k8s-geomap-dashboard/main/gazetteer/cloud-regions.json
 
 ## What Cloud Providers are Covered?
  * AWS
  * GCP
  * Azure
+ * Oracle
 
 ## What Metrics Contain Cloud Regions?
  * [kube-state-metrics](https://github.com/kubernetes/kube-state-metrics):

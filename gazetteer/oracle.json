@@ -1,0 +1,261 @@
+[
+   {
+      "key": "ap-sydney-1",
+      "latitude": -33.867777777777775,
+      "longitude": 151.20999999999998,
+      "name": "Australia East (Sydney)",
+      "provider": "oracle"
+   },
+   {
+      "key": "ap-melbourne-1",
+      "latitude": -37.814166666666665,
+      "longitude": 144.96305555555554,
+      "name": "Australia Southeast (Melbourne)",
+      "provider": "oracle"
+   },
+   {
+      "key": "sa-saopaulo-1",
+      "latitude": -23.550000000000001,
+      "longitude": -46.633333333333333,
+      "name": "Brazil East (Sao Paulo)",
+      "provider": "oracle"
+   },
+   {
+      "key": "sa-vinhedo-1",
+      "latitude": -23.029999999999998,
+      "longitude": -46.975000000000001,
+      "name": "Brazil Southeast (Vinhedo)",
+      "provider": "oracle"
+   },
+   {
+      "key": "ca-montreal-1",
+      "latitude": 45.50888888888889,
+      "longitude": -73.55416666666666,
+      "name": "Canada Southeast (Montreal)",
+      "provider": "oracle"
+   },
+   {
+      "key": "ca-toronto-1",
+      "latitude": 43.741666666666667,
+      "longitude": -79.373333333333321,
+      "name": "Canada Southeast (Toronto)",
+      "provider": "oracle"
+   },
+   {
+      "key": "sa-santiago-1",
+      "latitude": -33.4375,
+      "longitude": -70.650000000000006,
+      "name": "Chile Central (Santiago)",
+      "provider": "oracle"
+   },
+   {
+      "key": "sa-bogota-1",
+      "latitude": 4.7111111111111112,
+      "longitude": -74.072222222222223,
+      "name": "Colombia Central (Bogota)",
+      "provider": "oracle"
+   },
+   {
+      "key": "eu-paris-1",
+      "latitude": 48.856666666666669,
+      "longitude": 2.3522222222222222,
+      "name": "France Central (Paris)",
+      "provider": "oracle"
+   },
+   {
+      "key": "eu-marseille-1",
+      "latitude": 43.296399999999998,
+      "longitude": 5.3700000000000001,
+      "name": "France South (Marseille)",
+      "provider": "oracle"
+   },
+   {
+      "key": "eu-frankfurt-1",
+      "latitude": 50.110555555555557,
+      "longitude": 8.6822222222222223,
+      "name": "Germany Central (Frankfurt)",
+      "provider": "oracle"
+   },
+   {
+      "key": "ap-hyderabad-1",
+      "latitude": 17.361666666666668,
+      "longitude": 78.474722222222226,
+      "name": "India South (Hyderabad)",
+      "provider": "oracle"
+   },
+   {
+      "key": "ap-mumbai-1",
+      "latitude": 19.076111111111111,
+      "longitude": 72.877499999999998,
+      "name": "India West (Mumbai)",
+      "provider": "oracle"
+   },
+   {
+      "key": "il-jerusalem-1",
+      "latitude": 31.778888888888886,
+      "longitude": 35.225555555555559,
+      "name": "Israel Central (Jerusalem)",
+      "provider": "oracle"
+   },
+   {
+      "key": "eu-milan-1",
+      "latitude": 45.466944444444444,
+      "longitude": 9.1899999999999995,
+      "name": "Italy Northwest (Milan)",
+      "provider": "oracle"
+   },
+   {
+      "key": "ap-osaka-1",
+      "latitude": 34.693888888888885,
+      "longitude": 135.50222222222223,
+      "name": "Japan Central (Osaka)",
+      "provider": "oracle"
+   },
+   {
+      "key": "ap-tokyo-1",
+      "latitude": 35.689722222222215,
+      "longitude": 139.69222222222223,
+      "name": "Japan East (Tokyo)",
+      "provider": "oracle"
+   },
+   {
+      "key": "mx-queretaro-1",
+      "latitude": 20.583333333333332,
+      "longitude": -100.38333333333334,
+      "name": "Mexico Central (Queretaro)",
+      "provider": "oracle"
+   },
+   {
+      "key": "mx-monterrey-1",
+      "latitude": 25.666666666666668,
+      "longitude": -100.3,
+      "name": "Mexico Northeast (Monterrey)",
+      "provider": "oracle"
+   },
+   {
+      "key": "eu-amsterdam-1",
+      "latitude": 52.372777777777777,
+      "longitude": 4.8936111111111105,
+      "name": "Netherlands Northwest (Amsterdam)",
+      "provider": "oracle"
+   },
+   {
+      "key": "me-jeddah-1",
+      "latitude": 21.543333333333337,
+      "longitude": 39.172777777777775,
+      "name": "Saudi Arabia West (Jeddah)",
+      "provider": "oracle"
+   },
+   {
+      "key": "eu-jovanovac-1",
+      "latitude": 43.343899999999998,
+      "longitude": 21.681100000000001,
+      "name": "Serbia Central (Jovanovac)",
+      "provider": "oracle"
+   },
+   {
+      "key": "ap-singapore-1",
+      "latitude": 1.2833333333333332,
+      "longitude": 103.83333333333333,
+      "name": "Singapore (Singapore)",
+      "provider": "oracle"
+   },
+   {
+      "key": "af-johannesburg-1",
+      "latitude": -26.204444444444444,
+      "longitude": 28.045555555555556,
+      "name": "South Africa Central (Johannesburg)",
+      "provider": "oracle"
+   },
+   {
+      "key": "ap-seoul-1",
+      "latitude": 37.559999999999995,
+      "longitude": 126.98999999999999,
+      "name": "South Korea Central (Seoul)",
+      "provider": "oracle"
+   },
+   {
+      "key": "ap-chuncheon-1",
+      "latitude": 37.866666666666667,
+      "longitude": 127.73333333333333,
+      "name": "South Korea North (Chuncheon)",
+      "provider": "oracle"
+   },
+   {
+      "key": "eu-madrid-1",
+      "latitude": 40.416944444444439,
+      "longitude": -3.7033333333333336,
+      "name": "Spain Central (Madrid)",
+      "provider": "oracle"
+   },
+   {
+      "key": "eu-stockholm-1",
+      "latitude": 59.329444444444448,
+      "longitude": 18.06861111111111,
+      "name": "Sweden Central (Stockholm)",
+      "provider": "oracle"
+   },
+   {
+      "key": "eu-zurich-1",
+      "latitude": 47.374444444444443,
+      "longitude": 8.5411111111111104,
+      "name": "Switzerland North (Zurich)",
+      "provider": "oracle"
+   },
+   {
+      "key": "me-abudhabi-1",
+      "latitude": 24.466666666666665,
+      "longitude": 54.366666666666667,
+      "name": "UAE Central (Abu Dhabi)",
+      "provider": "oracle"
+   },
+   {
+      "key": "me-dubai-1",
+      "latitude": 25.263055555555557,
+      "longitude": 55.297222222222217,
+      "name": "UAE East (Dubai)",
+      "provider": "oracle"
+   },
+   {
+      "key": "uk-london-1",
+      "latitude": 51.507222222222225,
+      "longitude": -0.1275,
+      "name": "UK South (London)",
+      "provider": "oracle"
+   },
+   {
+      "key": "uk-cardiff-1",
+      "latitude": 51.588611111111113,
+      "longitude": -2.9977777777777779,
+      "name": "UK West (Newport)",
+      "provider": "oracle"
+   },
+   {
+      "key": "us-ashburn-1",
+      "latitude": 44.002499999999998,
+      "longitude": -78.995277777777773,
+      "name": "US East (Ashburn)",
+      "provider": "oracle"
+   },
+   {
+      "key": "us-chicago-1",
+      "latitude": 41.881944444444443,
+      "longitude": -87.627777777777766,
+      "name": "US Midwest (Chicago)",
+      "provider": "oracle"
+   },
+   {
+      "key": "us-phoenix-1",
+      "latitude": 33.448333333333331,
+      "longitude": -112.07388888888889,
+      "name": "US West (Phoenix)",
+      "provider": "oracle"
+   },
+   {
+      "key": "us-sanjose-1",
+      "latitude": 37.336111111111116,
+      "longitude": -121.89055555555557,
+      "name": "US West (San Jose)",
+      "provider": "oracle"
+   }
+]
