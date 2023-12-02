@@ -14,8 +14,7 @@
     {
       "type": "panel",
       "id": "geomap",
-      "name": "Geomap",
-      "version": ""
+      "name": "Geomap"
     },
     {
       "type": "grafana",
