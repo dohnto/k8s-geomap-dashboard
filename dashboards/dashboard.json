@@ -46,8 +46,10 @@
       }
     ]
   },
+  "description": "Understand your infrastructure geographic topology at glance.",
   "editable": true,
   "fiscalYearStartMonth": 0,
+  "gnetId": 19963,
   "graphTooltip": 0,
   "id": null,
   "links": [],
@@ -84,7 +86,7 @@
         "overrides": []
       },
       "gridPos": {
-        "h": 21,
+        "h": 33,
         "w": 24,
         "x": 0,
         "y": 0
@@ -197,6 +199,50 @@
             "name": "GCP",
             "tooltip": true,
             "type": "markers"
+          },
+          {
+            "config": {
+              "showLegend": true,
+              "style": {
+                "color": {
+                  "fixed": "dark-green"
+                },
+                "opacity": 0.4,
+                "rotation": {
+                  "fixed": 0,
+                  "max": 360,
+                  "min": -360,
+                  "mode": "mod"
+                },
+                "size": {
+                  "fixed": 5,
+                  "max": 15,
+                  "min": 2
+                },
+                "symbol": {
+                  "fixed": "img/icons/marker/circle.svg",
+                  "mode": "fixed"
+                },
+                "textConfig": {
+                  "fontSize": 12,
+                  "offsetX": 0,
+                  "offsetY": 0,
+                  "textAlign": "center",
+                  "textBaseline": "middle"
+                }
+              }
+            },
+            "filterData": {
+              "id": "byRefId",
+              "options": "A"
+            },
+            "location": {
+              "gazetteer": "https://raw.githubusercontent.com/dohnto/k8s-geomap-dashboard/main/gazetteer/azure.json",
+              "mode": "lookup"
+            },
+            "name": "Azure",
+            "tooltip": true,
+            "type": "markers"
           }
         ],
         "tooltip": {
@@ -262,7 +308,7 @@
   },
   "timepicker": {},
   "timezone": "",
-  "title": "Kubernetes GEO2",
+  "title": "Kubernetes GEO",
   "uid": "b8f299c5-e861-4b55-af7d-942fc4376bc9",
   "version": 1,
   "weekStart": ""

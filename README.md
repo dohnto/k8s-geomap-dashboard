@@ -24,6 +24,7 @@ There are 2 artifacts of this project which can be used for different purposes:
 ## What Cloud Providers are Covered?
  * AWS
  * GCP
+ * Azure
 
 ## What Metrics Contain Cloud Regions?
  * [kube-state-metrics](https://github.com/kubernetes/kube-state-metrics):
