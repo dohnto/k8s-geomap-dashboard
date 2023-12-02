@@ -39,7 +39,7 @@ echo "[" >> $tmpfile
 for key in $(jsonnet $input | jq -r '.[].key'); do
     slug=$(get $key wikiSlug)
     echo "=== $key ($slug)"
-    coords_text=$(curl -s https://en.wikipedia.org/wiki/$slug | grep wgCoordinates)
+    coords_text=$(curl -s https://en.wikipedia.org/wiki/$slug | grep -A1 wgCoordinates | paste -d "" - -)
     lat=$(echo "$coords_text" | grep -oP '"lat":[0-9.-]+' | cut -f2 -d:)
     lon=$(echo "$coords_text" | grep -oP '"lon":[0-9.-]+' | cut -f2 -d:)
 
